@@ -2,12 +2,14 @@
 
 <<comment
 
+
 '==' Operator: Double equal to operator compares the two operands. Its returns true is they are equal otherwise returns false.
 '!=' Operator: Not Equal to operator return true if the two operands are not equal otherwise it returns false.
 '<' Operator: Less than operator returns true if first operand is less than second operand otherwise returns false.
 '<=' Operator: Less than or equal to operator returns true if first operand is less than or equal to second operand otherwise returns false
 '>' Operator: Greater than operator return true if the first operand is greater than the second operand otherwise return false.
 '>=' Operator: Greater than or equal to operator returns true if first operand is greater than or equal to second operand otherwise returns false
+
 
 comment
 
