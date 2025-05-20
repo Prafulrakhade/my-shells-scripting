@@ -13,7 +13,7 @@ comment
 read  -p "Enter  A: " a
 read  -p "Enter  B: " b
 
-if [[ $a == "true"  &&  $b == "true" ]]
+if [ $a == "true" ] && [ $b == "true" ]
 then
   echo "Both are True"
 else
@@ -22,7 +22,7 @@ fi
 
 echo "------------------------"
 
-if [[ $a == "true" || $b == "true" ]]
+if [ $a == "true" ] || [ $b == "true" ]
 then
   echo "Atleast one of them is True"
 else
@@ -31,7 +31,7 @@ fi
 
 echo "------------------------"
 
-if [[ ! $a == "true" ]]
+if [ ! $a == "true" ]
 then
   echo "\"A\" was initially false"
 else
